@@ -12,9 +12,10 @@ html,body{
     overflow:hidden;
 }
 #page{
+    position: relative;
     height:100vh;
     width: 100vw;
-    background-color: skyblue;
+    background-color: grey;
 }
 
 
@@ -35,10 +36,40 @@ html,body{
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 400px;
-    color:black;
+    color:silver;
 }
 #nav{
-    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
     width: 100%;
-    background-color:whitesmoke;
+    background-color:#0D0C0C;
+    position: relative;
+    padding: 0% 1%;
 }
+
+#nav>img{
+    height: 60%;
+    width: 4%;
+}
+#center-nav{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    
+}
+
+#center-nav>a{
+    text-decoration: none;
+    color: silver;
+    font-style:oblique;
+    font-size: larger ;
+    font-weight: bolder;
+}
+#page1{
+    position: relative;
+    height:100vh;
+    width: 100vw;
+    background-color: grey;
+}    
